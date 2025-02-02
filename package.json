@@ -15,6 +15,10 @@
   "license": "MIT",
   "type": "commonjs",
   "description": "ARC76 account is the ED25519 account generated from the string. Extended version allows to generate account from the email and password. https://github.com/algorandfoundation/ARCs/blob/main/ARCs/arc-0076.md",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/scholtz/arc76-npm.git"
+  },
   "devDependencies": {
     "@types/jest": "^29.5.14",
     "jest": "^29.7.0",
@@ -32,5 +36,9 @@
   },
   "browser": {
     "buffer": "buffer/"
-  }
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ]
 }
